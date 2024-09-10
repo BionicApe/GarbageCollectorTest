@@ -1,0 +1,55 @@
+# Unreal Engine files to ignore
+
+# Ignore binary files
+Binaries/
+Build/
+
+# Ignore intermediate files
+Intermediate/
+
+# Ignore derived data cache
+DerivedDataCache/
+
+# Ignore project saves and backups
+Saved/
+
+# Ignore config auto-generated files
+*.ini
+*.tmp
+*.log
+
+# Ignore compiled libraries
+*.lib
+*.dll
+*.exe
+*.so
+*.dylib
+*.app
+
+# Ignore user-specific project settings
+.vscode/
+.idea/
+.DS_Store
+*.userprefs
+*.user
+*.sln
+
+# Ignore the Unreal Engine-specific lock file
+*.lock
+
+# Ignore Mac system files
+*.DS_Store
+
+# Ignore auto-generated Unreal Build System files
+.vscode/
+*.uprojectdirs
+*.xcodeproj
+*.xcworkspace
+
+
+# Visual Studio specific files
+.vs/
+*.suo
+
+# Visual Studio configuration
+.vsconfig
